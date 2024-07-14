@@ -1,3 +1,167 @@
-body {
- background-color: green;
-}
+// body {
+//  background-color: green;
+// }
+
+// header {
+//     background-color: rgb(255, 102, 0);
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     height: 50px;
+
+
+//     img {
+//         height: 20px;
+//     }
+    
+// }
+// main {
+//     margin-top: 50px;
+// }
+// ul {
+//     list-style-type: none;
+    
+// }
+
+// header, ul {
+//     display: flex;
+// }
+
+// .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     display: flex;
+// }
+// header .container {
+//     height: 100%;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+// header li {
+//     margin: 0 7px;
+//     color: white;
+// }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 102, 0);
+        width: 100%;
+        padding: 20px 0;
+        z-index: 15;
+    }
+    .contenitore{
+        max-width: 1200px;
+        margin: 0 auto;
+    }   
+    .align-c{
+        align-items: center;
+        
+     }
+     .align-v{
+        vertical-align: middle;
+      }
+    
+     .col33{
+        width: calc(100% / 3 - 20px);
+        margin: 0 10px;
+        
+     }
+     .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+      
+    
+     .text-center{
+        text-align: center;
+     }
+     .text-right{
+        text-align: right;
+     }
+     .bg-red{
+        background-color: red;
+     }
+     .bg-green{
+        background-color: rgb(6, 148, 6);
+     }
+     .white{
+        color: white;
+     }
+     .tlb{
+        background-color: transparent;
+        border: none;
+        color: white;
+     }
+     .Boolean{
+        height: 25px;
+        width: auto;
+     } 
+    .trb{
+        background-color: transparent;
+        border: none;
+        color: white;
+    }
+    main{
+        padding-top: 100px;
+    }
+    .content{
+        margin-bottom: 30px;
+        position: relative;
+    } 
+    img{
+        height: 540px;
+        width: 100%;
+    }
+    .discount-label{
+        position: absolute;
+        top: 480px;
+        left: 0;
+        color: white;
+        padding: 4px 8px;
+    }
+    .sostenibilità{
+        position: absolute;
+        top: 480px;
+        left:56px;
+        color:white;
+        padding: 4px 8px;
+    }
+    .heart{
+        position: absolute;
+        padding: 7px 10px;
+        background-color: white;
+        top: 10px;
+        right: 0px;
+    }
+    .heart:hover{
+        color: red;
+    }
+    .hover-image{
+        display: none;
+    }
+    .content:hover .main-image{
+        display: none;
+    }
+    .content:hover .hover-image{
+        display: block;
+    }.red{
+        color: red;
+    }.gray{
+        color: rgb(90, 90, 90);
+    }.linea{
+        text-decoration: line-through;
+    }.lightgray{
+        color: rgb(117, 114, 114);
+    } 
+     body{
+        font-family: Arial, sans-serif;
+     }
